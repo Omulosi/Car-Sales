@@ -3,5 +3,5 @@ import carReducer from './carReducer';
 import storeReducer from './storeReducer';
 
 export default combineReducers({
-  carReducer, storeReducer
+  carSale: carReducer, store: storeReducer
 })

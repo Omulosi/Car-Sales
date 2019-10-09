@@ -8,3 +8,8 @@ const initialState  = {
   ]
 }
 
+const storeReducer = (state=initialState, action) => {
+  return state;
+};
+
+export default storeReducer;
